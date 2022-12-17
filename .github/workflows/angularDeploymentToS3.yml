@@ -37,7 +37,7 @@ jobs:
       run: npm run build
       
     - name: Sync to S3
-      run: aws s3 ./ s3://rahid-angular-cicd
+      run: aws s3 sync ./ s3://rahid-angular-cicd
       
     
     
