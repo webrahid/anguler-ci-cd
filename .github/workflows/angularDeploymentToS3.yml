@@ -37,10 +37,6 @@ jobs:
     - name: Creating Build with Angular
       run: ng build
       
-      
-  deploy: 
-    runs-on: ubuntu-latest
-    needs: build
     
     
       
