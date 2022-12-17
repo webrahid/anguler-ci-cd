@@ -23,11 +23,11 @@ jobs:
       uses: actions/setup-node@v3.5.1
       
       
-    - name: Installing Anguler
-      run: npm i @angular/cli
+    - name: Installing Npm
+      run: npm install
       
     - name: Creating Build with Angular
-      run: ng build
+      run: npm run
       
     
     
