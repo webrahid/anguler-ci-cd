@@ -36,6 +36,9 @@ jobs:
     - name: Creating Build with Angular
       run: npm run build
       
+    - name: Sync to S3
+      run: aws s3 ./ s3://rahid-angular-cicd
+      
     
     
       
